@@ -1,6 +1,6 @@
 cask "flit" do
-  version "1.0.0"
-  sha256 "c898947ea4c5a6edf6aacfb3ce838c8858777d89c30699595fdf1e1acc5615ed"
+  version "1.1.0"
+  sha256 "3153c9088478ede0f2593c6141cfe1fa8928007a88a2f07387cde8a451198f8a"
 
   url "https://github.com/alimuratkuslu/Flit/releases/download/v#{version}/Flit-#{version}.dmg"
   name "Flit"
