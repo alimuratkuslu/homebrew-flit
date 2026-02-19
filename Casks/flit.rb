@@ -1,6 +1,6 @@
 cask "flit" do
-  version "1.1.0"
-  sha256 "3153c9088478ede0f2593c6141cfe1fa8928007a88a2f07387cde8a451198f8a"
+  version "1.1.1"
+  sha256 "840eb0b23f22a2a6ef5a4d657dc0128cb01906fb68989e4eb8cd03e83fd4decd"
 
   url "https://github.com/alimuratkuslu/Flit/releases/download/v#{version}/Flit-#{version}.dmg"
   name "Flit"
@@ -10,11 +10,6 @@ cask "flit" do
   depends_on macos: ">= :ventura"
 
   app "Flit.app"
-
-  postflight do
-    # Grant Accessibility permission prompt on first launch
-    system_command "/usr/bin/open", args: ["-a", "Flit"]
-  end
 
   livecheck do
     url :homepage
